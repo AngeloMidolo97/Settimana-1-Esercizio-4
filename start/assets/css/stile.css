@@ -1,0 +1,190 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html, body {
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    line-height: 1.2;
+}
+
+/* HEADER */
+header {
+    background-color: #2299BC;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+img {
+    padding: 20px;
+}
+
+header p {
+    padding: 20px;
+}
+
+header ul {
+    padding: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+li:after {
+    content: ' \21D0';
+    color: #ffffff;
+  }
+
+li:before {
+    content: ' \21D2';
+    color: #ffffff;
+  }
+/* MAIN */
+main {
+    background-color: #ffffff;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+article p:first-of-type {
+    color: gray;
+    font-size: 0.9rem;
+    padding: 20px;
+}
+
+article ul li {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+code {
+    font-size: 105%;
+    background-color: #c9c9c9;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+strong {
+    color: #ce004f;
+}
+
+ol {
+    margin: 40px;
+}
+/* TABELLE */
+table {
+    margin: 20px;
+    text-align: center;
+}
+
+table caption {
+    font-weight: bold;
+}
+
+thead tr:first-of-type {
+    background-color: #0066fe;
+    color: white;
+    height: 50px;
+}
+
+a {
+    color: #0066fe;
+}
+iframe {
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+
+section {
+    text-align: center;
+    background-color: lightgray;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+section h2 {
+    color: black;
+}
+
+fieldset input {
+    border: none;
+    border-bottom: 1px dashed gray;
+}
+
+fieldset button {
+    border: none;
+    background-color: #0066fe;
+    color: white;
+}
+
+th {
+    border-right: 1px solid gray;
+}
+
+td {
+    height: 50px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+table {
+     border-bottom: 1px solid #0066fe;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+aside div {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+
+ aside div p:last-child {
+    margin-left: 80px;
+    font-size: 0.8rem;
+}
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(to top, black, #0E5566);
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 20px;
+}
+ address a {
+     color: #fe00b2;
+ }
